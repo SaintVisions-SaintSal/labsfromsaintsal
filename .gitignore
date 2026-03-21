@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+dist/
+*.p8
+*.mobileprovision
+*.p12
+credentials.json
+.env
+.env.local
+ios/
+android/
