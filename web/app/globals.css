@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════
+   LABS FROM SAINTSAL — KINETIC BLUEPRINT DESIGN SYSTEM
+   Neon Green · Near-Black · Gold Accents
+   US Patent #10,290,222 · HACP Protocol
+═══════════════════════════════════════════════════ */
+
+@theme inline {
+  /* Backgrounds */
+  --color-kb-bg: #050508;
+  --color-kb-bg-card: #0A0A0F;
+  --color-kb-bg-elevated: #111118;
+  --color-kb-bg-terminal: #020204;
+  --color-kb-bg-input: #0D0D14;
+
+  /* Neon green — primary accent */
+  --color-kb-neon: #00FF88;
+  --color-kb-neon-dim: #00FF8833;
+  --color-kb-neon-glow: #00FF8818;
+  --color-kb-neon-bright: #00FFB3;
+
+  /* Gold — SaintSal brand */
+  --color-kb-gold: #D4AF37;
+  --color-kb-gold-bright: #FFD700;
+  --color-kb-gold-dim: #D4AF3740;
+  --color-kb-amber: #F59E0B;
+
+  /* Agent colors */
+  --color-kb-agent-grok: #FF6B35;
+  --color-kb-agent-stitch: #818CF8;
+  --color-kb-agent-claude: #00FF88;
+  --color-kb-agent-sal: #D4AF37;
+
+  /* Status */
+  --color-kb-thinking: #F59E0B;
+  --color-kb-complete: #00FF88;
+  --color-kb-error: #EF4444;
+  --color-kb-warning: #F59E0B;
+  --color-kb-idle: #333340;
+  --color-kb-blue: #3B82F6;
+  --color-kb-purple: #818CF8;
+
+  /* Typography */
+  --color-kb-text: #E8E6E1;
+  --color-kb-text-sub: #9CA3AF;
+  --color-kb-text-dim: #555566;
+  --color-kb-text-ghost: #2A2A35;
+  --color-kb-text-terminal: #00FF88;
+
+  /* Borders */
+  --color-kb-border: #1A1A24;
+  --color-kb-border-neon: #00FF8833;
+  --color-kb-border-gold: #D4AF3730;
+
+  /* Semantic tokens */
+  --color-background: #050508;
+  --color-foreground: #E8E6E1;
+  --color-card: #0A0A0F;
+  --color-card-foreground: #E8E6E1;
+  --color-primary: #00FF88;
+  --color-primary-foreground: #050508;
+  --color-secondary: #D4AF37;
+  --color-secondary-foreground: #050508;
+  --color-muted: #111118;
+  --color-muted-foreground: #9CA3AF;
+  --color-accent: #D4AF37;
+  --color-accent-foreground: #050508;
+  --color-destructive: #EF4444;
+  --color-destructive-foreground: #E8E6E1;
+  --color-border: #1A1A24;
+  --color-input: #0D0D14;
+  --color-ring: #00FF8833;
+
+  --radius: 0.5rem;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Menlo", "Monaco", "Consolas", monospace;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* Neon glow effects */
+.neon-glow {
+  box-shadow: 0 0 20px var(--color-kb-neon-glow),
+              0 0 40px var(--color-kb-neon-glow),
+              inset 0 0 20px var(--color-kb-neon-glow);
+}
+
+.neon-text {
+  text-shadow: 0 0 10px var(--color-kb-neon),
+               0 0 20px var(--color-kb-neon-dim);
+}
+
+.gold-glow {
+  box-shadow: 0 0 20px var(--color-kb-gold-dim),
+              0 0 40px var(--color-kb-gold-dim);
+}
+
+/* Terminal styling */
+.terminal-text {
+  font-family: var(--font-mono);
+  color: var(--color-kb-text-terminal);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-kb-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-kb-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-kb-text-dim);
+}
