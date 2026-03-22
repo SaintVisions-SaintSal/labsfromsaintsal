@@ -129,3 +129,143 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-kb-text-dim);
 }
+
+/* Kinetic Blueprint Utility Classes */
+@utility bg-kb-bg {
+  background-color: var(--color-kb-bg);
+}
+@utility bg-kb-bg-card {
+  background-color: var(--color-kb-bg-card);
+}
+@utility bg-kb-bg-elevated {
+  background-color: var(--color-kb-bg-elevated);
+}
+@utility bg-kb-bg-terminal {
+  background-color: var(--color-kb-bg-terminal);
+}
+@utility bg-kb-bg-input {
+  background-color: var(--color-kb-bg-input);
+}
+@utility bg-kb-neon {
+  background-color: var(--color-kb-neon);
+}
+@utility bg-kb-neon-glow {
+  background-color: var(--color-kb-neon-glow);
+}
+@utility bg-kb-gold {
+  background-color: var(--color-kb-gold);
+}
+
+@utility text-kb-bg {
+  color: var(--color-kb-bg);
+}
+@utility text-kb-text {
+  color: var(--color-kb-text);
+}
+@utility text-kb-text-sub {
+  color: var(--color-kb-text-sub);
+}
+@utility text-kb-text-dim {
+  color: var(--color-kb-text-dim);
+}
+@utility text-kb-neon {
+  color: var(--color-kb-neon);
+}
+@utility text-kb-neon-bright {
+  color: var(--color-kb-neon-bright);
+}
+@utility text-kb-gold {
+  color: var(--color-kb-gold);
+}
+@utility text-kb-agent-grok {
+  color: var(--color-kb-agent-grok);
+}
+@utility text-kb-agent-stitch {
+  color: var(--color-kb-agent-stitch);
+}
+@utility text-kb-agent-claude {
+  color: var(--color-kb-agent-claude);
+}
+@utility text-kb-agent-sal {
+  color: var(--color-kb-agent-sal);
+}
+@utility text-kb-complete {
+  color: var(--color-kb-complete);
+}
+@utility text-kb-error {
+  color: var(--color-kb-error);
+}
+@utility text-kb-warning {
+  color: var(--color-kb-warning);
+}
+@utility text-kb-blue {
+  color: var(--color-kb-blue);
+}
+
+@utility border-kb-border {
+  border-color: var(--color-kb-border);
+}
+@utility border-kb-border-neon {
+  border-color: var(--color-kb-border-neon);
+}
+@utility border-kb-border-gold {
+  border-color: var(--color-kb-border-gold);
+}
+
+@utility hover\:bg-kb-neon-bright {
+  &:hover {
+    background-color: var(--color-kb-neon-bright);
+  }
+}
+@utility hover\:bg-kb-bg-elevated {
+  &:hover {
+    background-color: var(--color-kb-bg-elevated);
+  }
+}
+@utility hover\:text-kb-text {
+  &:hover {
+    color: var(--color-kb-text);
+  }
+}
+@utility hover\:border-kb-border-neon {
+  &:hover {
+    border-color: var(--color-kb-border-neon);
+  }
+}
+
+@utility shadow-kb-neon {
+  box-shadow: 0 0 20px var(--color-kb-neon-glow);
+}
+
+@utility bg-kb-agent-grok {
+  background-color: var(--color-kb-agent-grok);
+}
+@utility bg-kb-agent-stitch {
+  background-color: var(--color-kb-agent-stitch);
+}
+@utility bg-kb-agent-claude {
+  background-color: var(--color-kb-agent-claude);
+}
+@utility bg-kb-agent-sal {
+  background-color: var(--color-kb-agent-sal);
+}
+@utility bg-kb-complete {
+  background-color: var(--color-kb-complete);
+}
+@utility bg-kb-error {
+  background-color: var(--color-kb-error);
+}
+@utility bg-kb-warning {
+  background-color: var(--color-kb-warning);
+}
+
+@utility hover\:text-kb-neon {
+  &:hover {
+    color: var(--color-kb-neon);
+  }
+}
+@utility hover\:bg-kb-gold-bright {
+  &:hover {
+    background-color: var(--color-kb-gold-bright);
+  }
+}
