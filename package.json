@@ -28,7 +28,7 @@
     "expo-secure-store": "~15.0.8",
     "expo-status-bar": "~3.0.9",
     "lucide-react": "^0.577.0",
-    "next": "^16.2.1",
+    "next": "^16.3.3",
     "react": "19.1.0",
     "react-native": "0.81.5",
     "react-native-gesture-handler": "~2.28.0",
